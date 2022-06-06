@@ -7,8 +7,7 @@
 
 #Traditionally update & upgrade
 #Load all tools we need for further builds
-apt update && apt upgrade && apt install nano sudo git curl wget build-essential libreadline-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev -y
-
+apt-get update -y && apt-get upgrade -y && apt-get install nano sudo git curl wget build-essential libreadline-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev -y
 
 #██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
 #██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
