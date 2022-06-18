@@ -1,7 +1,10 @@
 <div align="center">
-<img src="https://c.tenor.com/FMacCdHxgMgAAAAC/call-from-based-department.gif">
+<img src="https://i2.wp.com/foxutech.com/wp-content/uploads/2017/03/docker-images-on-local-disk.gif?fit=900%2C600&ssl=1">
+<br/>
+<br/>
+<br/>
 
 # Sources of base images
 
-<p>This is the sources of <a href="https://hub.docker.com/repository/docker/klyntar/all_in_one/general">klyntar/all_in_one</a> base image used to build KLY infrastructure.In simply words,contains of installation processes of Go,Node.js and Python.Also,some tools will be installed e.g. PNPM(advanced NPM),node-gyp to build addons and so on.You can check the setup script and if you want-build the local image itself to make sure of no backdoors hidden in our pre-build base image used in our builds.Don't trust-verify!😉</p>
+<p>This is the repository with sources (Dockerfiles + other files) of KLYNTAR.Contains of directories related to our projects to allow you to build images yourself. You can check the setup script and if you want-build the local image itself to make sure of no backdoors hidden in our pre-build base image used in our builds.Don't trust-verify!😉</p>
 </div>

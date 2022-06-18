@@ -1,3 +1,12 @@
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/53381472/174458699-2da979dd-cd18-4536-a034-cc064bab712d.png">
+
+# Tor box
+
+
+</div>
+
 ## Build
 
 ```bash
@@ -18,4 +27,4 @@ docker exec -ti tor_proxy sudo -u tor tor
 
 ```
 
-This will run proxy on 0.0.0.0, so you can use this SOCKS proxy via port 5666. If you need,change <b>torrc</b> file and build new image.
+This will run proxy on 0.0.0.0, so you can use this SOCKS proxy via port 5666. If you need,change <b>torrc</b> file and rebuild the image.
