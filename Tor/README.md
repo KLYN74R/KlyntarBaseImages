@@ -12,6 +12,12 @@
 
 </div>
 
+## Description
+
+A pretty simple dockerized TOR SOCKS proxy available to be used by plugins for your KLY infrastructure (<b>dev_tor</b> for example), for Apollo(for anonymous interactions with services & nodes) or for some personal needs
+
+<br/>
+
 ## Build
 
 ```bash
@@ -32,4 +38,4 @@ docker exec -ti tor_proxy sudo -u tor tor
 
 ```
 
-This will run proxy on 0.0.0.0, so you can use this SOCKS proxy via port 5666. If you need,change <b>torrc</b> file and rebuild the image.
+This will run proxy on 0.0.0.0, so you can use this SOCKS proxy via port 5666. If you need,modify <b>torrc</b> file and rebuild the image.
